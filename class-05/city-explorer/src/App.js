@@ -12,7 +12,7 @@ class App extends React.Component {
   }
 
   updateCity = (e) => {
-    console.log('in upate city', e.target.value)
+    console.log('in update city', e.target.value)
     this.setState({ city: e.target.value})
   }
 
