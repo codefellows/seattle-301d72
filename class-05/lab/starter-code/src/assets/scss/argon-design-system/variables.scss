@@ -128,9 +128,9 @@ $shape-colors: map-merge((
 
 $shapes-primary-colors: () !default;
 $shapes-primary-colors: map-merge((
-  "step-1-gradient-bg":         #281483,
-  "step-2-gradient-bg":         #8f6ed5,
-  "step-3-gradient-bg":         #d782d9,
+  "step-1-gradient-bg":         #d32148,
+  "step-2-gradient-bg":         #f36c36 ,
+  "step-3-gradient-bg":         #ffe606,
   "span-1-bg":                  #53f,
   "span-2-bg":                  #4553ff,
   "span-3-bg":                  #4f40ff,
@@ -140,21 +140,21 @@ $shapes-primary-colors: map-merge((
 
 $shapes-default-colors: () !default;
 $shapes-default-colors: map-merge((
-  "step-1-gradient-bg":         #7795f8,
-  "step-2-gradient-bg":         #6772e5,
-  "step-3-gradient-bg":         #555abf,
-  "span-1-bg":                  #7795f8,
-  "span-2-bg":                  #7b9aff,
-  "span-3-bg":                  #6f8ff8,
+  "step-1-gradient-bg":         #9c1231,
+  "step-2-gradient-bg":         #ff6225 ,
+  "step-3-gradient-bg":         #ffd600,
+  "span-1-bg":                  #c31982,
+  "span-2-bg":                  #b66cf3,
+  "span-3-bg":                  #eb7944,
   "span-4-bg":                  #76eea7,
   "span-5-bg":                  #6adaff
 ), $shapes-default-colors);
 
 $shapes-light-colors: () !default;
 $shapes-light-colors: map-merge((
-  "step-1-gradient-bg":         #b2cbe1,
-  "step-2-gradient-bg":         #f6f9fc,
-  "step-3-gradient-bg":         #f6f9fc,
+  "step-1-gradient-bg":         #9e2e46,
+  "step-2-gradient-bg":         #fa7e4d ,
+  "step-3-gradient-bg":         #fac944,
   "span-1-bg":                  #b4cce1,
   "span-2-bg":                  #c5dbef,
   "span-3-bg":                  #b9d5ed,
@@ -164,9 +164,9 @@ $shapes-light-colors: map-merge((
 
 $shapes-dark-colors: () !default;
 $shapes-dark-colors: map-merge((
-  "step-1-gradient-bg":         #32325d,
-  "step-2-gradient-bg":         #32325d,
-  "step-3-gradient-bg":         #32325d,
+  "step-1-gradient-bg":         #3b0511,
+  "step-2-gradient-bg":         #953914 ,
+  "step-3-gradient-bg":         #806e17,
   "span-1-bg":                  #2e2e57,
   "span-2-bg":                  #2b2b58,
   "span-3-bg":                  #25254d,

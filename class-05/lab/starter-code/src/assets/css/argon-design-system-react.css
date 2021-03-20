@@ -13502,7 +13502,7 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-primary :nth-child(5) {
       background: #1fa2ff; }
   .section-shaped .shape-default {
-    background: linear-gradient(120deg,#9c1231 15%,#ff6225 60%,#ffd600 100%);}
+    background:linear-gradient(120deg, #9c1231 15%, #ff6225 60%, #ffd600 100%);}
     .section-shaped .shape-default :nth-child(1) {
       background: #9c1231; }
     .section-shaped .shape-default :nth-child(2) {
