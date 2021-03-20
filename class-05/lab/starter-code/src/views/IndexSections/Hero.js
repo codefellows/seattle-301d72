@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
+
 import creative from "assets/img/brand/creativetim-white-slim.png";
 import developerpic from "../../assets/img/developerpic.jpg";
 
@@ -54,8 +54,7 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      Dynamically rendered to best suit the occasion. 
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
