@@ -2,4 +2,4 @@
 
 [build]
 
-publish = "public/"
+publish = "build/"
