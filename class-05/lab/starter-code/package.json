@@ -2,7 +2,7 @@
   "name": "argon-design-system-react",
   "version": "1.1.0",
   "description": "React version of Argon Design System by Creative Tim",
-  "main": "src/index.js",
+  "main": "index.js",
   "re ository": {
     "type": "git",
     "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
-  "homepage": "https://github.com/TrunkOfUkuleles/seattle-301d72/tree/301-portfolio/class-05/lab/starter-code/",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
