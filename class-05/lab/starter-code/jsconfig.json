@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "starter-code",
+    "baseUrl": "src",
     "paths": {
-      "*": ["starter-code/*"]
+      "*": ["src/*"]
     }
   }
 }
