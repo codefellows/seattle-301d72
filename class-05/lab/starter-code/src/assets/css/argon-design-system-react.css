@@ -37,7 +37,7 @@
   --gray-dark: #32325d;
   --light: #ced4da;
   --lighter: #e9ecef;    
-  --primary: #9c1231;      
+  --primary: linear-gradient(120deg,#9c1231 15%,#ff6225 60%,#ffd600 100%);    
   --secondary: #f4f5f7;
   --success: #2dce89;
   --info: #11cdef;
@@ -12417,7 +12417,7 @@ textarea[resize="horizontal"] {
 
 .has-success:after {
   content: "\ea26";
-  color: daken(#2dce89, 18%);
+  color: darken(#2dce89, 18%);
   background-color: #69deac; }
 
 .has-success .form-control {
@@ -12460,7 +12460,7 @@ textarea[resize="horizontal"] {
     font-size: 4.25rem; }
 
 .icon-xl + .icon-text {
-  width: calc(100% - $icon-size-xl - 1); }
+  width: calc(100% - icon-size-xl - 1); }
 
 .icon-lg {
   width: 4rem;
@@ -12469,7 +12469,7 @@ textarea[resize="horizontal"] {
     font-size: 3.25rem; }
 
 .icon-lg + .icon-text {
-  width: calc(100% - $icon-size-lg - 1); }
+  width: calc(100% - icon-size-lg - 1); }
 
 .icon-sm {
   width: 2rem;
@@ -12478,7 +12478,7 @@ textarea[resize="horizontal"] {
     font-size: 1.25rem; }
 
 .icon-sm + .icon-text {
-  width: calc(100% - $icon-size-sm - 1); }
+  width: calc(100% - icon-size-sm - 1); }
 
 .icon-xs {
   width: 1.25rem;
@@ -12486,7 +12486,7 @@ textarea[resize="horizontal"] {
   .icon-xs i, .icon-xs svg {
     font-size: 0.5rem !important; }
   .icon-xs + .icon-text {
-    width: calc(100% - $icon-size-xs - 1); }
+    width: calc(100% - icon-size-xs - 1); }
 
 .icon-shape {
   padding: 12px;
@@ -13490,7 +13490,7 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-skew span {
       transform: skew(4deg); }
   .section-shaped .shape-primary {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%); }
+    background: linear-gradient(120deg,#9c1231 15%,#ff6225 60%,#ffd600 100%); }
     .section-shaped .shape-primary :nth-child(1) {
       background: #53f; }
     .section-shaped .shape-primary :nth-child(2) {
@@ -13502,13 +13502,13 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-primary :nth-child(5) {
       background: #1fa2ff; }
   .section-shaped .shape-default {
-    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%); }
+    background: linear-gradient(120deg,#9c1231 15%,#ff6225 60%,#ffd600 100%);}
     .section-shaped .shape-default :nth-child(1) {
-      background: #7795f8; }
+      background: #9c1231; }
     .section-shaped .shape-default :nth-child(2) {
-      background: #7b9aff; }
+      background: #ff6225; }
     .section-shaped .shape-default :nth-child(3) {
-      background: #6f8ff8; }
+      background: #ffd600; }
     .section-shaped .shape-default :nth-child(4) {
       background: #76eea7; }
     .section-shaped .shape-default :nth-child(5) {
@@ -13610,7 +13610,7 @@ textarea[resize="horizontal"] {
   .section-shaped .shape-style-1.shape-primary {
     background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%); }
   .section-shaped .shape-style-1.shape-default {
-    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%); }
+    background: linear-gradient(120deg,#9c1231 15%,#ff6225 60%,#ffd600 100%); }
   .section-shaped .shape-style-1.shape-light {
     background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%); }
   .section-shaped .shape-style-1.shape-dark {
