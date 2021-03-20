@@ -21,6 +21,7 @@ import React from "react";
 import { Button, Container, Row, Col } from "reactstrap";
 import reactWhite from "assets/img/brand/argon-react-white.png";
 import creative from "assets/img/brand/creativetim-white-slim.png";
+import developerpic from "../../assets/img/developerpic.jpg";
 
 class Hero extends React.Component {
   render() {
@@ -49,7 +50,7 @@ class Hero extends React.Component {
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={reactWhite}
+                      src= {developerpic}
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">

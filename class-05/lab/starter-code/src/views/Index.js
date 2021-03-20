@@ -36,7 +36,7 @@ import Progress from "./IndexSections/Progress.js";
 import Pagination from "./IndexSections/Pagination.js";
 import Pills from "./IndexSections/Pills.js";
 import Labels from "./IndexSections/Labels.js";
-import Alerts from "./IndexSections/Alerts.js";
+
 import Typography from "./IndexSections/Typography.js";
 import Modals from "./IndexSections/Modals.js";
 import Datepicker from "./IndexSections/Datepicker.js";
@@ -78,7 +78,7 @@ class Index extends React.Component {
                 <Pills />
                 <Labels />
               </Row>
-              <Alerts />
+    
               <Typography />
               <Modals />
               <Datepicker />
