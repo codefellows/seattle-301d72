@@ -27,7 +27,11 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
+  Button,
+  Card,
+  CardBody,
+  CardImg,
 } from "reactstrap";
 
 class Inputs extends React.Component {

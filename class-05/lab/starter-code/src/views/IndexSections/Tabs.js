@@ -145,10 +145,10 @@ class TabsSection extends React.Component {
             </Card>
           </Col>
           <Col className="mt-5 mt-lg-0" lg="6">
-            {/* Menu */}
-            <div className="mb-3">
-              <small className="text-uppercase font-weight-bold">
-                With text
+            {/* schol section */}
+            <div className="mb-3 text-right" style={{ alignContent: "right"}}>
+              <small className="text-uppercase font-weight-bold " >
+                Schooling
               </small>
             </div>
             <div className="nav-wrapper">
@@ -168,7 +168,7 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    Home
+                    &gt;
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -181,7 +181,7 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    Profile
+                    BA
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -194,7 +194,7 @@ class TabsSection extends React.Component {
                     href="#pablo"
                     role="tab"
                   >
-                    Messages
+                    Other
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -203,34 +203,20 @@ class TabsSection extends React.Component {
               <CardBody>
                 <TabContent activeTab={"plainTabs" + this.state.plainTabs}>
                   <TabPane tabId="plainTabs1">
-                    <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
-                    </p>
-                    <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse.
-                    </p>
+                    
                   </TabPane>
                   <TabPane tabId="plainTabs2">
+                    <h2>University of California - Santa Barbara</h2>
                     <p className="description">
-                      Cosby sweater eu banh mi, qui irure terry richardson ex
-                      squid. Aliquip placeat salvia cillum iphone. Seitan
-                      aliquip quis cardigan american apparel, butcher voluptate
-                      nisi qui.
+                      2007-2011
+                      BA
                     </p>
                   </TabPane>
                   <TabPane tabId="plainTabs3">
+                    <h2>Tsuru Bunka Daigaku</h2>
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                      Dual language nevironment
+                      Bleh
                     </p>
                   </TabPane>
                 </TabContent>
