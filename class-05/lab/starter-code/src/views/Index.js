@@ -66,13 +66,10 @@ class Index extends React.Component {
               <Row className="row-grid justify-content-between align-items-center mt-lg">
                 <Progress />
               </Row>
-              <Row className="row-grid justify-content-between">
-             {/*   <Pills />
-                <Labels />*/}
-              </Row>
+            
     
               
-              <Modals />
+         
 
             </Container>
           </section>

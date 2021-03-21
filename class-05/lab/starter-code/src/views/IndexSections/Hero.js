@@ -33,14 +33,14 @@ class Hero extends React.Component {
           <section className="section section-hero section-shaped">
             {/* Background circles */}
             <div className="shape shape-style-1 shape-default">
-              <span className="span-150" />
-              <span className="span-50" />
+              <span className="span-150">&#10022;</span>
+              <span className="span-50">&#10022;</span>
               <span className="span-50" />
               <span className="span-75" />
               <span className="span-100" />
               <span className="span-75" />
               <span className="span-50" />
-              <span className="span-100" />
+              <span className="span-100">&#10022;</span>
               <span className="span-50" />
               <span className="span-100" />
             </div>

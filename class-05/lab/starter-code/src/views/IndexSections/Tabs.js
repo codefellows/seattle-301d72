@@ -111,44 +111,41 @@ class TabsSection extends React.Component {
                 <TabContent activeTab={"iconTabs" + this.state.iconTabs}>
                   <TabPane tabId="iconTabs1">
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                     Home is where the heart is, and my heart could use a vacation. This past year, while stressful has been a great time to
+                     polish my skills and take things to the next level. My background coming from sales, and marketing give me a good overview
+                     of what I need and when. 
                     </p>
                     <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse.
+                      Diving deep into the call stack to under stand the where whens and hows of Javascript has left me a little sparse on 
+                      early knowledge, but I am catching up fast. 
                     </p>
                   </TabPane>
                   <TabPane tabId="iconTabs2">
                     <p className="description">
-                      Cosby sweater eu banh mi, qui irure terry richardson ex
-                      squid. Aliquip placeat salvia cillum iphone. Seitan
-                      aliquip quis cardigan american apparel, butcher voluptate
-                      nisi qui.
+                      Born in NY, CA since HS. While a log of my early exposure was aroudn the entertainment field, technology always held an 
+                      interest for me. Left me with connections both to the tech  world up north and the entertainment world down here. 
+                      Now I want to take my engineering to the next level and focus on the technologies that allow us to reach one another. 
                     </p>
                   </TabPane>
                   <TabPane tabId="iconTabs3">
-                    <p className="description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth main
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
-                    </p>
+                    <ul className="description">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JS</li>
+                      <li>React</li>
+                      <li>postgreSQL</li>
+                      <li>MongoDB</li>
+                    </ul>
                   </TabPane>
                 </TabContent>
               </CardBody>
             </Card>
           </Col>
           <Col className="mt-5 mt-lg-0" lg="6">
-            {/* schol section */}
+            {/* school section */}
             <div className="mb-3 text-right" style={{ alignContent: "right"}}>
               <small className="text-uppercase font-weight-bold " >
-                Schooling
+                Education
               </small>
             </div>
             <div className="nav-wrapper">
