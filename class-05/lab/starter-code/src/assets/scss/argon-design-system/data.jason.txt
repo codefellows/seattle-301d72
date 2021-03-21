@@ -1,0 +1,42 @@
+[
+    {
+        name: "Cocolate Pizza" ,
+        alt: ,
+        desc: ,
+        image: ,
+        long-desc: ,
+        link:
+    },
+    {
+        name: ,
+        alt: ,
+        desc: ,
+        image: ,
+        long-desc: ,
+        link:
+    },
+    {
+        name: ,
+        alt: ,
+        desc: ,
+        image: ,
+        long-desc: ,
+        link:
+    },
+    {
+        name: ,
+        alt: ,
+        desc: ,
+        image: ,
+        long-desc: ,
+        link:
+    },
+    {
+        name: ,
+        alt: ,
+        desc: ,
+        image: ,
+        long-desc: ,
+        link:
+    },
+]

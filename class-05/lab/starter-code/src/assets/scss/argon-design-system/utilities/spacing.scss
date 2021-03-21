@@ -35,7 +35,11 @@
         z-index: 5;
     }
 
+.collapse {
+    min-width: 20%;
+    flex-shrink: 2 ;
 
+}
     // Large negative margins in pixels
 
     .mt--100 {

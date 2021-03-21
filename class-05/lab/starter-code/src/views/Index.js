@@ -26,6 +26,7 @@ import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
 import Hero from "./IndexSections/Hero.js";
+
 import Buttons from "./IndexSections/Buttons.js";
 import Inputs from "./IndexSections/Inputs.js";
 import CustomControls from "./IndexSections/CustomControls.js";
@@ -66,11 +67,7 @@ class Index extends React.Component {
               <Row className="row-grid justify-content-between align-items-center mt-lg">
                 <Progress />
               </Row>
-            
-    
-              
-         
-
+        
             </Container>
           </section>
           <Carousel />

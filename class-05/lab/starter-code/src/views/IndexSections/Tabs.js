@@ -18,7 +18,7 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
-
+import stylesheet from '../../assets/vendor/nucleo/css/nucleo.css'
 // reactstrap components
 import {
   Card,
@@ -35,14 +35,18 @@ import {
 class TabsSection extends React.Component {
   state = {
     iconTabs: 1,
-    plainTabs: 1
+    plainTabs: 1,
+    open: true,
   };
   toggleNavs = (e, state, index) => {
     e.preventDefault();
+    console.log(this.state.open)
     this.setState({
       [state]: index
     });
   };
+
+  
   render() {
     return (
       <>
@@ -141,9 +145,9 @@ class TabsSection extends React.Component {
               </CardBody>
             </Card>
           </Col>
-          <Col className="mt-5 mt-lg-0" lg="6">
+          <Col className={`mt-5 mt-lg-0 ${!this.state.open ? "collapse" : ""}`} lg="6">
             {/* school section */}
-            <div className="mb-3 text-right" style={{ alignContent: "right"}}>
+            <div className= "mb-3 text-right" style={{ alignContent: "right"}}>
               <small className="text-uppercase font-weight-bold " >
                 Education
               </small>
@@ -161,11 +165,11 @@ class TabsSection extends React.Component {
                     className={classnames("mb-sm-3 mb-md-0", {
                       active: this.state.plainTabs === 1
                     })}
-                    onClick={e => this.toggleNavs(e, "plainTabs", 1)}
+                    onClick={e => this.toggleNavs(e, "open", !this.state.open)}
                     href="#pablo"
                     role="tab"
                   >
-                    &gt;
+                    {this.state.open ? '>>' : <i class="ni ni-hat-3" />}
                   </NavLink>
                 </NavItem>
                 <NavItem>
