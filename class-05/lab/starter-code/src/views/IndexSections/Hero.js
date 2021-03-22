@@ -56,7 +56,7 @@ class Hero extends React.Component {
                     />
                     <h1>Julien Edwards</h1>
                     <p className="lead text-white">
-                      Dynamically rendered to best suit the occasion. 
+                      Design wit hintent. I have had a career developing digital marketing campaigns as well as B2B campaigns, and my taklaway has been get the tools best suited for the job. After brushing up on my design chops and mastering React, I have been working my way to designing my own tools. This ssttention todetail and drive to systematize will get me by.
                     </p>
                     
                     <div className="mt-5">
