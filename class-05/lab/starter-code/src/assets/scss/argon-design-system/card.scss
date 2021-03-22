@@ -92,6 +92,30 @@
   }
 }
 
+.three-cards{
+    position:static;
+    display: grid;
+    width: 100ch;
+    justify-content: center;
+    height:300px;
+    
+}
+
+
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    flex:1; 
+    justify-content: space-around;
+    max-height:300px;
+    background-color: rgb(89, 0, 255);
+    margin: auto;
+
+
+
+  }
 // Animated cards
 
 .card-lift--hover {

@@ -470,6 +470,21 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
+  
+
+.lrg-project{   
+    width: 70%;
+    color: black;
+    display: flex;
+}
+
+.sml-prj{
+  max-width: 100px;
+  color: black;
+  display: flex;
+
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -3570,9 +3585,16 @@ input[type="button"].btn-block {
   border-radius: calc(0.25rem - 0.0625rem); }
 
 .card-img-top {
-  width: 100%;
+  max-width: 100px;
   border-top-left-radius: calc(0.25rem - 0.0625rem);
-  border-top-right-radius: calc(0.25rem - 0.0625rem); }
+  border-top-right-radius: calc(0.25rem - 0.0625rem);
+  ;
+ }
+
+ .smlimg{
+   width: 100px;
+  max-width: 100px !important;
+ }
 
 .card-img-bottom {
   width: 100%;

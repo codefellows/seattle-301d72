@@ -40,7 +40,7 @@ class Hero extends React.Component {
               <span className="span-100" />
               <span className="span-75" />
               <span className="span-50" />
-              <span className="span-100" style="{{font-size: 200%;}}" >&#10022;</span>
+              <span className="span-100" >&#10022;</span>
               <span className="span-50" />
               <span className="span-100" />
             </div>

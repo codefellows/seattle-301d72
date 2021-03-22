@@ -39,30 +39,7 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
-                    <CardImg
-                      alt="..."
-                      src={landing}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={profile}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
+          
           <Container>
           <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">

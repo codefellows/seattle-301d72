@@ -17,27 +17,10 @@
 */
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
-import ProfileFeed from '../IndexSections/ProfileFeed'
-import cardImg from "../../assets/img/theme/img-1-1200x1000.jpg";
-import ill2 from "assets/img/ill/ill-2.svg";
-import team1 from "assets/img/theme/team-1-800x800.jpg";
-import team2 from "assets/img/theme/team-2-800x800.jpg";
-import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
-
+import data from '../../assets/data.json'
 // reactstrap components
 import {
-  Badge,
-  Button,
-  Card,
-  CardBody,
-  CardImg,
-  FormGroup,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+
   Container,
   Row,
   Col
@@ -48,10 +31,14 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+
+import ProjectGen from '../../components/ProjectGen.js';
+
 
 class Landing extends React.Component {
-  state = {};
+  state = {
+    projectData: {data}
+  };
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -100,7 +87,7 @@ class Landing extends React.Component {
               </div>
             </section>
             {/* 1st Hero Variation */}
-          <ProfileFeed />
+          <ProjectGen data={data} size={true} />
           </div>
 
         
