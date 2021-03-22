@@ -1,5 +1,5 @@
 {
-  "name": "city-explorer",
+  "name": "city_explorer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
