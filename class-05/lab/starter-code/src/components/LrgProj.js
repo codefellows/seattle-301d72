@@ -35,13 +35,15 @@ import landing from "assets/img/theme/landing.jpg";
 import profile from "assets/img/theme/profile.jpg";
 
 class LrgProj extends React.Component {
- 
+  constructor(props){
+    super(props)
+  }
 
   render() {
     return (
  
         <>
-        <img class="card sml-img card-lift--hover" src={this.props.img} />
+        <img class="card sml-img card-lift--hover" src={this.props.imge} />
             <h2 class="lrg-title">{this.props.title}</h2> 
                 <p class="lrg-txt">{this.props.desc}</p>
                 <ul class="points">

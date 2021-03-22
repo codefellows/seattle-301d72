@@ -1,14 +1,14 @@
 [
     {
         "title": "Cocolate Pizza Project",
-        "img": "./img/theme/choco",
+        "img": "./img/theme/choco.jpg",
         "smltxt": "Only Sweets Heaven knows the secrets...",
         "lrgtxt": "The climb to the pinical of culinary exilance is not an easy one. Rather, these hallowed halls still ring with the exclamations of delight, along with screams of horror. The Cocolate Pizza project was an attempt to break free from the gravity that binds us. The preconceived notion of our own hubrus.",
         "points": ["Boldly going where those fear to tread" , "use of HTML and CSS vanilla to design" ]
     },
     {
         "title": "Born To Horn",
-        "img": "../../assets/img/theme/hornsml",
+        "img": "../../assets/img/theme/hornsml.jpg",
         "smltxt": "The obsession that is sweeping the natio. No credit card, totally anonymos",
         "lrgtxt": "Finally a place where you can go to relax. To let yourself indulge in the anonymous nature of the internet. No one is judging you, you can finally explore the obsession we all know you have been having. HORNS are sweeping the nation, come indulge in your wildest Horny fantasy and connect with a little wild near you. There is alos a bitcoin, yto truely keep your personal secreet safe. Try today!",
         "points": [ "Built with React" , "Very descrete billing!" ]

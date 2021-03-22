@@ -35,7 +35,11 @@ import landing from "assets/img/theme/landing.jpg";
 import profile from "assets/img/theme/profile.jpg";
 
 class SmlProj extends React.Component {
-    state = {big: this.props.size};
+  constructor(props){
+    super(props);
+    this.state = {big: this.props.size};
+  }
+    
 
 
   render() {
