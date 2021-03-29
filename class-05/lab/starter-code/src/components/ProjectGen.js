@@ -38,9 +38,9 @@ class ProjectGen extends React.Component {
 
 
   render() {
-   
+    {console.log(this.props.jorp.img)}
     return (
-  
+ 
         <div class="card-container">
         {
         this.state.big ?            

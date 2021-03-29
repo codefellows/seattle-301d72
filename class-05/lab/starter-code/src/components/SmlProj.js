@@ -37,17 +37,21 @@ import profile from "assets/img/theme/profile.jpg";
 class SmlProj extends React.Component {
   constructor(props){
     super(props);
-    this.state = {big: this.props.size};
+    this.state = {
+      big: this.props.size,
+      img: this.props.img,
+    };
+    
   }
     
 
 
   render() {
-    console.log("props: " + this.props.img);
+    console.log("props: " + this.state.img);
     return (
         
         <div class="card sml-prj card-lift--hover">
-        <img class="card-img-top smlimg" size="300px" src={this.props.img}  />
+        <img class="card-img-top smlimg" size="300px" src="C:/Users/Julien/.vscode/extensions/seattle-301d72/class-05/lab/starter-code/src/assets/img/theme/hornsml.jpg"  />
         <div class="card-body">
             <h5 class="card-title">{this.props.title}</h5>
             <p class="sml-title card-text" >{this.props.desc}</p>
